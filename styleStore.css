@@ -1,0 +1,62 @@
+@import url("styleBasic.css");
+
+#storeHeaderUnderline {
+    border-bottom: 7px solid #000000;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: -30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#storeHeader {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.itemCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #dfdfdf;
+    border: #ffffff 2px solid;
+    height: 420px;
+    width: 300px;
+    overflow: hidden;
+    margin: 30px;
+}
+.itemCard:hover{
+    transform: scale(1.03);
+    border-radius: 15px;
+    margin: 30px;
+    background-color: #e7e7e7;
+    border: #747474 2px solid;
+}
+.itemCard:hover .itemImage{
+    filter: brightness(120%);
+    border-radius: 5px;
+}
+.itemTitle{
+    font-size: 30px;
+    text-wrap: nowrap;
+}
+#storeBoxContent{
+    background-color: rgb(47, 48, 51);
+    background-image: linear-gradient(to bottom right, #ffffff, #aaaaaa, #ffffff, #aaaaaa);
+    background-size: 400%, 400%;
+    animation: backgroundMove 30s ease infinite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

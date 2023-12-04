@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleAbout.css">
+    <script src="script.js"></script>
+    <script src="ItemData.js"></script>
+    <title>The Best Store</title>
+</head>
+
+<body>
+    <div id="topNavBar">
+        <h1 id="topWebName">The Best Store</h1>
+        <div id="searchBarBox">
+            <button id="topSearchButton" onclick="Search()"></button>
+        </div>
+    </div>
+
+    <div id="spaceFiller"></div>
+    <div class="content">
+        <div>
+            <video src="visuals/TopVideo2.mp4" autoplay loop muted class="headerVideo" width=""></video>
+            <h1 class="headerText">The Best Store</h1>
+        </div>
+        <div id="storeBox">
+            <h1 id="storeHeader">Our Mission</h1>
+            <p id="storeHeaderUnderline">
+                <nbsp></nbsp>
+            </p>
+            <div id="missionImages">
+                <img src="visuals/mission2.jpg" alt="cool picture" class="i2">
+                <img src="visuals/mission1.jpg" alt="cool picture" class="i1">
+            </div>
+            <div id="missionText">
+                <header>
+                    <h1 class="mission">OutdoorWear: Embrace Nature in Comfort</h1>
+                    <p id="storeHeaderUnderline" style="margin-top: -20px;width: 35vi;">
+                        <nbsp></nbsp>
+                    </p>
+                </header>
+                <div>
+                    <section>
+                        <h2 class="mission">Our Mission</h2>
+                        <p>At OutdoorWear, our mission is deeply rooted in the belief that connecting with nature should
+                            be
+                            a comfortable and enriching experience for everyone. We strive to inspire individuals to
+                            embark
+                            on outdoor adventures, fostering a deep appreciation for the natural world. Our commitment
+                            goes
+                            beyond crafting high-quality clothing; it's about creating a movement that celebrates the
+                            transformative power of nature on both personal well-being and environmental consciousness.
+                            We
+                            envision a world where every step into the great outdoors becomes an opportunity for
+                            self-discovery and a journey towards a sustainable future.</p>
+                    </section>
+                    <section>
+                        <h2 class="mission">Sustainable Practices</h2>
+                        <p>Central to our ethos is the unwavering dedication to minimizing our environmental footprint.
+                            OutdoorWear embraces sustainability at every stage of our product lifecycle. From sourcing
+                            materials with the least impact on ecosystems to implementing ethical manufacturing
+                            practices,
+                            we are steadfast in our commitment to eco-consciousness. By prioritizing sustainability, we
+                            aim
+                            not only to produce high-performance outdoor gear but also to set new standards for
+                            responsible
+                            business in the industry. Our dedication to preserving the planet extends beyond our
+                            products,
+                            as we actively engage with initiatives that promote environmental stewardship and community
+                            involvement, creating a positive ripple effect that resonates with our customers and
+                            partners
+                            alike.</p>
+                    </section>
+                    <section>
+                        <h2 class="mission">Empowering Outdoor Enthusiasts</h2>
+                        <p>OutdoorWear is more than a brand; it's a catalyst for empowerment in the outdoor community.
+                            We
+                            recognize that each outdoor enthusiast is on a unique journey, and our mission is to provide
+                            them with the tools and confidence to navigate it seamlessly. Our gear is meticulously
+                            designed
+                            for performance, durability, and adaptability to diverse outdoor environments. Beyond the
+                            tangible aspects, we foster a sense of belonging and shared purpose among our community.
+                            Through
+                            partnerships, events, and educational initiatives, we strive to empower outdoor enthusiasts
+                            to
+                            not only embrace the beauty of nature but also actively contribute to its preservation. Join
+                            us
+                            in this adventure, where every OutdoorWear product becomes a symbol of empowerment and a
+                            step
+                            towards a more sustainable and connected world.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div style="margin: 15px;padding-left: 50px;">
+            <h1>About Us</h1>
+            <a href="aboutUs.html">Our mission</a>
+            <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+            <p>Email: <a href="mailto:3Jw5M@example.com">3Jw5M@example.com</a></p>
+            <p>Address: 123 Main St, Anytown, USA</p>
+        </div>
+        <div style="margin: 15px;">
+            <div>
+                <h2 id="newsletterHeader">Newsletter sign up</h2>
+                <input type="text" id="email">
+                <p style="margin-top: 10px; display: inline;"><br>Email
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                <button style="color: wheat; background-color: black; border-radius: 10px;"
+                    onclick="let h = document.getElementById('newsletterHeader');if (h.innerHTML[19] != '✓'){h.innerHTML += ' ✓';}">Submit</button>
+            </div>
+        </div>
+        <div style="margin: 15px;padding-right: 150px;">
+            <h1>Other Links</h1>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Professional Link</a>
+            <br><br>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact Us</a>
+        </div>
+    </div>
+</body>
+
+</html>

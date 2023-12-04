@@ -1,0 +1,101 @@
+@import url("styleBasic.css");
+
+#itemImage {
+    width: 25vi;
+    margin: 50px 8vi;
+    object-fit: cover;
+}
+#rightSideItem {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 50vi;
+    margin: 21px 12px;
+    border-radius: 15px;
+}
+#leftSideItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vi;
+    background-image: radial-gradient(#ffffff, #ffffff,#ffffff, #aaaaaa);
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color:#ebc26b;
+}
+#itemName {
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #343434;
+    background-image: radial-gradient(#282828, #343434);
+    border-radius: 15px;
+}
+#itemReview{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    height: 35px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-right: 10px;
+    background-color: #343434;
+    border-radius: 15px;
+    width: 150px;
+    line-height: 35px;
+}
+#itemPrice{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    height: 35px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-right: 10px;
+    background-color: #343434;
+    border-radius: 15px;
+    width: 150px;
+}
+#addToCartButton{
+    color: #d3e3ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-right: 10px;
+    background-image: linear-gradient(#434343, #282828, #434343);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    border-radius: 15px;
+    height: 50px;
+    transition-duration: 0.3s;
+}
+#addToCartButton:hover{
+    background-position: 0% 90%;
+}
+
+#itemTags{
+    color: #ebc26b;
+    font-family: 'Arial', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #343434;
+    border-radius: 15px;
+    padding-right: 20px;
+}
